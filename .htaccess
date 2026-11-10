@@ -1,0 +1,51 @@
+RewriteEngine On
+Options -Indexes
+
+# 1. Blokir akses ke semua dotfile / dotfolder (.git, .env, .agent, .cursor, .windsurfrules, dll.)
+RewriteRule (^|/)\. - [F,L]
+
+# 2. Blokir akses langsung ke folder internal
+RewriteRule ^(core|config|sql|layouts|storage|docs)/ - [F,L]
+
+# 3. Blokir akses langsung ke file dokumentasi / konfigurasi di root
+RewriteRule \.(md|sql|json|lock|log)$ - [F,L,NC]
+
+# 4. Blokir request HTTP langsung ke file .php mana pun KECUALI index.php dan router.php
+#    (Catatan: internal require PHP dari router.php tetap berjalan normal!)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteCond %1 !^(index|router)$ [NC]
+RewriteRule ^ - [F,L]
+
+# 5. Izinkan file statis (gambar, css, js, font, webp, pdf) dilayani langsung
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# 6. Arahkan semua route lainnya ke router.php
+RewriteRule ^(.*)$ router.php [QSA,L]
+
+# 7. Kompresi Gzip untuk teks/kode agar hemat bandwidth
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# 8. Browser Caching untuk aset statis
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# 9. Dukungan PWA Manifest & Larangan Cache Browser pada Service Worker
+AddType application/manifest+json .webmanifest
+
+<IfModule mod_headers.c>
+    <FilesMatch "^(sw\.js|manifest\.webmanifest)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+    </FilesMatch>
+</IfModule>

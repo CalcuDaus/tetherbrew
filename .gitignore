@@ -1,0 +1,19 @@
+
+AGENT.md
+CLAUDE.md
+.agent-mem/
+config/*.local.php
+sql/u665669172_tetherbrew.sql
+storage/cache/
+
+
+# Auto-generated agent rules (personalized per developer)
+.brainsync/agent-rules.md
+
+# Auto-generated AI agent exclusions
+.cursorrules
+.clineRules
+.agent/
+.windsurfrules
+.gemini/
+.cline/

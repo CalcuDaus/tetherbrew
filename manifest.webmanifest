@@ -1,0 +1,40 @@
+{
+  "name": "Tether Brew — Kopi Keliling Medan",
+  "short_name": "Tether Brew",
+  "description": "Temukan gerobak kopi keliling Tether Brew terdekat secara realtime di Medan sekitarnya. Kopi segar mulai Rp 8.000!",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c1210",
+  "theme_color": "#16a34a",
+  "lang": "id-ID",
+  "icons": [
+    {
+      "src": "/assets/images/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cari Gerobak Terdekat",
+      "short_name": "Peta Gerobak",
+      "url": "/#maps",
+      "icons": [{ "src": "/assets/images/pwa-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "POS Kasir Rider",
+      "short_name": "POS Rider",
+      "url": "/rider/pos",
+      "icons": [{ "src": "/assets/images/pwa-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

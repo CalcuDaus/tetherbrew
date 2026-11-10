@@ -1,0 +1,7 @@
+Options -Indexes -ExecCGI
+
+# Blokir eksekusi segala jenis script di dalam folder uploads
+<FilesMatch "\.(php|php\d+|phtml|phar|pl|py|cgi|sh|htaccess)$">
+    Require all denied
+</FilesMatch>
+

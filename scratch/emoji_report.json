@@ -1,0 +1,152 @@
+[
+    {
+        "file": "index.php",
+        "line": 583,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" id=\"pwa-banner-close\" class=\"btn-pwa-close\" aria-label=\"Tutup Banner\">✕<\/button>"
+    },
+    {
+        "file": "index.php",
+        "line": 599,
+        "emojis": "✕",
+        "snippet": "<button id=\"order-close-btn\" class=\"order-close-btn\">✕<\/button>"
+    },
+    {
+        "file": "layouts\/customer.php",
+        "line": 109,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" id=\"pwa-banner-close\" class=\"btn-pwa-close\" aria-label=\"Tutup Banner\">✕<\/button>"
+    },
+    {
+        "file": "pages\/accounts\/index.php",
+        "line": 120,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addAccountModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/accounts\/index.php",
+        "line": 186,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editAccountModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/artikel\/admin.php",
+        "line": 127,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addArtikelModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/artikel\/admin.php",
+        "line": 180,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editArtikelModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/bars\/index.php",
+        "line": 151,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"modal-close-btn\" onclick=\"closeAddModal()\">✕<\/button>"
+    },
+    {
+        "file": "pages\/bars\/index.php",
+        "line": 185,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"modal-close-btn\" onclick=\"closeEditModal()\">✕<\/button>"
+    },
+    {
+        "file": "pages\/branches\/index.php",
+        "line": 98,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addBranchModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/branches\/index.php",
+        "line": 144,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editBranchModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/carts\/index.php",
+        "line": 180,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addCartModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/carts\/index.php",
+        "line": 241,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editCartModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/journal_categories\/index.php",
+        "line": 81,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addCatModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/journal_categories\/index.php",
+        "line": 107,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editCatModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/productions\/index.php",
+        "line": 157,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addProductionModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/productions\/index.php",
+        "line": 196,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addStockModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/productions\/index.php",
+        "line": 233,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editProductionModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/products\/index.php",
+        "line": 121,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addProductModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/products\/index.php",
+        "line": 182,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editProductModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/rider\/pos.php",
+        "line": 493,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"pos-cart-close-mobile\" onclick=\"toggleMobileCart(false)\" aria-label=\"Tutup\">✕<\/button>"
+    },
+    {
+        "file": "pages\/riders\/index.php",
+        "line": 105,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addRiderModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/riders\/index.php",
+        "line": 152,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editRiderModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/spoiled_products\/index.php",
+        "line": 132,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"addSpoiledModal\">✕<\/button>"
+    },
+    {
+        "file": "pages\/spoiled_products\/index.php",
+        "line": 171,
+        "emojis": "✕",
+        "snippet": "<button type=\"button\" class=\"app-modal-close\" data-close-modal=\"editSpoiledModal\">✕<\/button>"
+    }
+]
